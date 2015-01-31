@@ -1,0 +1,90 @@
+/*#pageMenu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	list-style: none;
+	z-index: 999;
+}
+
+#pageMenu li {
+	display:inline-block;
+	float:left;
+	margin: 0 5px;
+	padding: 5px;
+	background: gray;
+	border-radius: 5px;
+}*/
+
+/*CHANGE THIS*/
+#pageMenu li {
+	display:inline-block;
+	margin: 10px;
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
+}
+#pageMenu li.active{
+	background:#666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
+#pageMenu li a{
+	text-decoration:none;
+	color: #000;
+}
+#pageMenu li.active a:hover{
+	color: #000;
+}
+#pageMenu li:hover{
+	background: rgba(255,255,255, 0.8);
+}
+#pageMenu li a,
+#pageMenu li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+#pageMenu li.active a{
+	color: #fff;
+}
+#pageMenu{
+	position:fixed;
+	top:0;
+	left:0;
+	height: 40px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+
+.section {
+	font-family: sans-serif;;
+	font-weight: 300;
+	font-size: 2em;
+	text-align:center;
+}
+
+.slide {
+	font-size:1em;
+}
+
+#firstSection {
+	background-image: url('../images/background-forest.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	color:white;
+}
+
+
+
+h1 {
+	font-family: sans-serif;
+	font-weight: 300;
+}
+
+p {
+	font-size: .7em;
+
+}
