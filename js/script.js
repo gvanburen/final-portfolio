@@ -10,15 +10,15 @@ $(document).ready(function() {
     	
     	//Scrolling
     	css3:true,
-    	continuousVertical: true,
+    	continuousVertical: false,
     	scrollingSpeed: 300,
     	
     	//Accessibility
     	keyboardScrolling: true,
     	
     	//Design
-    	controlArrows: true,
-    	sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke'],
+    	controlArrows: false,
+    	sectionsColor: ['#F8F4E4', '#779999', '#818569', '#778899'],
     	verticalCentered: true,
     	resize: false,
 
