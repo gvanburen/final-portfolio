@@ -2,6 +2,7 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
     	//Navigation
     	anchors: ['home','about','projects','contact'],
+    	animateAnchor: false,
     	menu:'#pageMenu',
     	// navigation: true,
     	// navigationPosition: 'top',
@@ -18,7 +19,7 @@ $(document).ready(function() {
     	
     	//Design
     	controlArrows: false,
-    	sectionsColor: ['#F8F4E4', '#779999', '#818569', '#778899'],
+    	sectionsColor: ['#778899', '#779999', '#818569', '#778899'],
     	verticalCentered: true,
     	resize: false,
 
