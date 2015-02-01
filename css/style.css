@@ -1,9 +1,13 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
 /*Menu*/
 .menuItems {
 	text-align:center;
-	font-family: sans-serif;
 	font-size: 1.1em;
 	font-weight: 300;
+	letter-spacing: 0.1em;
 }
 
 #pageMenu li {
@@ -46,7 +50,6 @@
 
 /*General Section Formating*/
 .section {
-	font-family: sans-serif;;
 	font-weight: 300;
 	font-size: 2em;
 	text-align:center;
@@ -56,12 +59,11 @@
 	font-size:1em;
 }
 
-h1 {
-	font-family: sans-serif;
+/*h1 {
 	font-weight: 300;
 	font-size: 2em;
 }
-
+*/
 h3 {
 	font-weight: 300;
 	font-size: 1.5em;
@@ -80,8 +82,16 @@ p {
 	color:white;
 }
 
+#firstSection h1 {
+	font-weight: 300;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
 .buttons {
 	padding-left:0;
+	font-family: 'Libre Baskerville', serif;
+	/*text-transform: lowercase;*/
 }
 
 .buttons li {
@@ -131,6 +141,11 @@ p {
 #secondSection {
 	padding: 0 2em;
 }
+
+#secondSection h1 {
+	font-family: 'Libre Baskerville', serif;
+}
+
 
 @media only screen and (max-width: 458px) {
 	#pageMenu {
