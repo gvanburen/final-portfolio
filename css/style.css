@@ -59,11 +59,17 @@
 h1 {
 	font-family: sans-serif;
 	font-weight: 300;
+	font-size: 2em;
+}
+
+h3 {
+	font-weight: 300;
+	font-size: 1.5em;
+	margin: 0 1em;
 }
 
 p {
 	font-size: .7em;
-
 }
 
 /*Landing Page*/
@@ -74,10 +80,15 @@ p {
 	color:white;
 }
 
+.buttons {
+	padding-left:0;
+}
+
 .buttons li {
 	display:inline-block;
 	text-decoration: none;
 	font-size: 0.8em;
+	margin: 5px;
 }
 
 .ghost-button {
@@ -106,9 +117,49 @@ p {
               border-color 0.3s ease-in;
 }
 
+@media only screen and (max-width: 660px) {
+	.buttons {
+		font-size: 0.6em;
+	}
+
+	.ghost-button {
+		width: 125px;
+	}
+}
+
 /*About Me*/
 #secondSection {
 	padding: 0 2em;
+}
+
+@media only screen and (max-width: 458px) {
+	#pageMenu {
+		font-size: 0.8em;
+	}
+
+	#pageMenu li a,
+	#pageMenu li.active a {
+		padding: 4px 0;
+	}
+
+	#firstSection h1 {
+		font-size: 1em;
+	}
+
+	#secondSection h1 {
+		font-size: 1em;
+		/*margin-top: 2em;*/
+	}
+
+	#secondSection p {
+		font-size: 0.5em;
+	}
+}
+
+/*Projects*/
+#thirdSection h3 {
+	font-size: 1em;
+	font-weight: 300;
 }
 
 /*Contact*/
@@ -118,6 +169,8 @@ p {
 
 .socialLinks {
 	list-style: none;
+	margin-top: 1.5em;
+	padding-left: 0;
 }
 
 .socialLinks li {
@@ -138,6 +191,11 @@ p {
 	color: #000;
 }
 
+@media only screen and (max-width: 550px) {
+	#fourthSection h3 {
+		font-size: 0.8em;
+	}
+}
 
 
 
