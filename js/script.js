@@ -10,7 +10,7 @@ $(document).ready(function() {
     	slidesNavPosition: 'bottom',
     	
     	//Scrolling
-    	css3:false,
+    	css3:true,
     	continuousVertical: false,
     	scrollingSpeed: 300,
     	
